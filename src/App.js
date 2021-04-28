@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     console.log(userDetails);
-    setData(userDetails);
+    userDetails && setData(userDetails);
   }, []);
 
   var filteredArray =

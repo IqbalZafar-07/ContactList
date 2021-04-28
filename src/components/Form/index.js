@@ -51,7 +51,7 @@ const FormEditing = ({ data, setData, item, user, setUser }) => {
       } else {
         console.log("uni", user);
         const uniqueUser = { ...user, id: new Date().getTime() };
-        setData((prev) => [...prev, uniqueUser]);
+        setData([...data, uniqueUser]);
         history.push("/");
       }
     }

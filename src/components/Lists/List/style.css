@@ -1,5 +1,5 @@
 .fullWrap {
-  height: 10vh;
+  height: auto;
   display: grid;
   place-items: center;
   border: 1px solid lightgray;
@@ -20,8 +20,7 @@
   flex-direction: column;
 }
 .detail {
-  margin-top: -2vh;
-  margin-bottom: -5vh;
+  margin-bottom: -4vh;
   display: flex;
 }
 
