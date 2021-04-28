@@ -1,0 +1,30 @@
+.fullWrap {
+  height: 10vh;
+  display: grid;
+  place-items: center;
+  border: 1px solid lightgray;
+  border-radius: 100px;
+  margin-top: 2vh;
+  background-color: white;
+}
+.listWrapper {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.detail {
+  margin-top: -2vh;
+  margin-bottom: -5vh;
+  display: flex;
+}
+
+.btn {
+  display: flex;
+}
