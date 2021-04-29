@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import List from "./List";
 
 const Lists = ({ data, setData, setEditItem, filteredArray }) => {
@@ -6,6 +7,10 @@ const Lists = ({ data, setData, setEditItem, filteredArray }) => {
     const updatedata = [...data].filter((item) => item.id !== id);
     setData(updatedata);
   }
+
+  useEffect(() => {
+    setEditItem({});
+  }, []);
 
   return (
     <div className="body">
